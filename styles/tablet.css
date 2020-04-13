@@ -1,0 +1,237 @@
+
+/* navbar */
+.navbar {
+    height: 44px;
+    background: white;
+    width: 90%;
+    padding: 0% 5%;
+    color: #060a24;
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0px;
+  }
+  
+  .menu {
+    margin: 0px;
+    float: right;
+    padding: 0% 5%;
+    position: absolute;
+    left: 0;
+    top: 43px;
+    width: 90%;
+    background: #0000ec;
+    text-align: left;
+    display: none;
+  }
+  
+  .hide-menu-btn {
+    display: none;
+  }
+  
+  .show-menu-btn,
+  .hide-menu-btn {
+    font-size: 24px;
+    float: right;
+  }
+  
+  .show-menu-btn i,
+  .hide-menu-btn i {
+    line-height: 44px;
+  }
+  
+  .menu a {
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 0px;
+  }
+  
+  #chk:checked ~ .menu {
+    display: block;
+  }
+  
+  #chk:checked ~ .show-menu-btn {
+    display: none;
+  }
+  
+  #chk:checked ~ .hide-menu-btn {
+    display: block;
+  }
+  
+  #chk {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  /* fin navbar */
+  /* div uno */
+  .title {
+    line-height: 42px;
+    font-size: 36px;
+    padding: 0% 5%;
+  }
+  .blue {
+    color: #060a24;
+  }
+  .parrafo-principal {
+    font-size: 14px;
+    margin-bottom: 36px;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 0% 5%;
+  }
+  .contenedor_button_one {
+    display: flex;
+    justify-content: center;
+  }
+  .form_uno{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .button_one {
+    width: 90%;
+    height: 48px;
+    padding: 0% 5%;
+    margin-bottom: 24px;
+  }
+  /* fin div uno */
+  /* div dos */
+  .gradiente {
+    padding-top: 64px;
+    padding-bottom: 143px;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  }
+  .episodios {
+    padding: 0% 5%;
+  }
+  
+  .contenedor_podcast {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-podcast-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-podcast-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .embed {
+    width: 93%;
+    margin-bottom: 11px;
+    height: 152px;
+    border: 0px;
+  }
+  
+  /* fin div dos */
+  /* div tres */
+  .phone {
+    width: 100%;
+    position: relative;
+    top: -100px;
+  }
+  .subtitle2 {
+    font-size: 36px;
+    margin: 0px 16px;
+    margin-bottom: 8px;
+  }
+  .parrafo_secundario {
+    margin: 0px 16px;
+    font-size: 14px;
+  }
+  .contenedor_parrafo_secundario {
+    position: relative;
+    top: -80px;
+  }
+  /* fin div tres */
+  /* div cuatro */
+  .contenedor_imagenes{
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor_imagenes_uno{
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor_imagenes_dos{
+    display: flex;
+  flex-direction: column;
+  }
+  .subtitle3 {
+    font-size: 36px;
+    margin: 0% 5%;
+    margin-bottom: 14px;
+  }
+  .image {
+    width: 100%;
+  }
+  /* fin div cuatro */
+  /* div 5 */
+  .temas {
+    display: flex;
+    flex-direction: column;
+  }
+  .subtitle4 {
+    font-size: 36px;
+    margin-top: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 37px;
+  }
+  .div_iconos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nombre_icono {
+    font-size: 24px;
+  }
+  /* fin div 5 */
+  /* div 6 */
+  .gradiente_dos {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 341px;
+  }
+  .subtitle5 {
+    font-size: 36px;
+  }
+  .form_dos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .button_dos {
+    font-size: 16px;
+    width: 90%;
+    height: 48px;
+  }
+  /* fin div 6 */
+  /* footer */
+  .text_footer{
+      font-size: 14px;
+  }
+  .redes{
+      font-size: 16px;
+  }
+  
+  .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .div_redes{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  }

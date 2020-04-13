@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>proyecto podcast</title>
+    <script
+      src="https://kit.fontawesome.com/f01eea33cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width: 0px) and (max-width: 320px)"
+      href="/styles/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width: 321px) and (max-width: 700px)"
+      href="/styles/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width: 701px) and (max-width: 1100px)"
+      href="/styles/tabletdos.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width: 1101px)"
+      href="/styles/desktop.css"
+    />
+    <link rel="stylesheet" href="/styles/common.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="logo" src="/images/logo.svg" alt="logo" />
+      <input type="checkbox" id="chk" />
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+      <div class="menu">
+        <a href="#episodios">Episodios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#entrevista">Entrevistas</a>
+        <a href="#topicos">Tópicos</a>
+      </div>
+    </nav>
+    <header>
+      <h1 class="title">
+        Hello <span class="through">word<br class="salto-uno"/></span> pale blue
+        dot<span class="blue">.</span>
+      </h1>
+      <p class="parrafo-principal">
+        El portal de podcasts que explora el mundo de la programación y la
+        tecnología. Nuevos episodios, todos los jueves cada 15 días.
+      </p>
+      <div class="contenedor_button_one">
+        <form class="form_uno" action="https://es.wikipedia.org/wiki/HTML">
+          <input class="button_one" type="submit" value="CONOCÉ MÁS" />
+        </form>
+      </div>
+    </header>
+    <section id="episodios" class="gradiente">
+      <h2 class="episodios">Episodios</h2>
+      <div class="contenedor_podcast">
+        <div class="contenedor-podcast-uno">
+          <iframe
+            class="embed"
+            src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="embed"
+            src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+        <div class="contenedor-podcast-dos">
+          <iframe
+            class="embed"
+            src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="embed"
+            src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <article class="div2">
+      <img class="phone" src="/images/phone.png" alt="phone" />
+      <div class="contenedor_parrafo_secundario">
+        <h2 id="nosotros" class="subtitle2">
+          De dónde <br class="salto-dos" />venimos
+        </h2>
+        <p class="parrafo_secundario">
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by this
+          point of pale light. Our planet is a lonely speck in the great
+          enveloping cosmic dark. In our obscurity, in all this vastness, there
+          is no hint that help will come from elsewhere to save us from
+          ourselves.
+        </p>
+      </div>
+    </article>
+    <section class="contenedor_imagenes">
+      <h2 id="entrevista" class="subtitle3">Invitadas/os estelares</h2>
+      <div class="contenedor_imagenes_uno">
+        <img class="image" src="/images/grace-hopper.png" alt="grace hopper" />
+        <img class="image" src="/images/Katie-Bouman.png" alt="katie bouman" />
+        <img
+          class="image"
+          src="/images/Margaret_Hamilton.png"
+          alt=" margaret hamilton"
+        />
+      </div>
+      <div class="contenedor_imagenes_dos">
+        <img
+          class="image"
+          src="/images/An-E.R.A.Univac-1103-computer-in-the-1950s.png"
+          alt="E.R.A. univac 1103 computer in the 1950"
+        />
+        <img
+          class="image"
+          src="/images/Computer-operators-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.png"
+          alt="computer operators with an eniac"
+        />
+        <img class="image" src="/images/susan-kare.png" alt="susan kate" />
+      </div>
+    </section>
+    <section class="temas">
+      <h2 id="topicos" class="subtitle4">Algunos de nuestros temas</h2>
+      <div class="contenedor_iconos">
+        <div class="div_iconos">
+          <img class="icon" src="/images/icon1.svg" alt="icon trabajo remoto" />
+          <p class="nombre_icono">Trabajo remoto</p>
+        </div>
+        <div class="div_iconos">
+          <img
+            class="icon"
+            src="/images/icon2.svg"
+            alt="icon rempensando la programacion"
+          />
+          <p class="nombre_icono">Repensando <br />la programación</p>
+        </div>
+        <div class="div_iconos">
+          <img
+            class="icon"
+            src="/images/icon3.svg"
+            alt="icon bases del codigo"
+          />
+          <p class="nombre_icono">Bases del código</p>
+        </div>
+        <div class="div_iconos">
+          <img
+            class="icon"
+            src="/images/icon4.svg"
+            alt="icon seguridad informatica"
+          />
+          <p class="nombre_icono">Seguridad <br />informática</p>
+        </div>
+      </div>
+    </section>
+    <section class="gradiente_dos">
+      <h2 class="subtitle5">¿Querés las últimas novedades?</h2>
+      <form class="form_dos" action="#episodios">
+        <input class="button_dos" type="submit" value="ESCUCHÁ LOS EPISODIOS" />
+      </form>
+    </section>
+    <footer>
+      <div class="footer">
+        <p class="text_footer">© 2019— Hello blue pale dot</p>
+        <div class="div_redes">
+          <div>
+            <a href="https://www.instagram.com/acamica/?hl=es-la"
+              ><i class="redes fab fa-instagram"></i
+            ></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/"
+              ><i class="redes fab fa-spotify"></i
+            ></a>
+          </div>
+          <div>
+            <a href="https://twitter.com/Acamica_com"
+              ><i class="redes fab fa-twitter"></i
+            ></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/Acamica.org/"
+              ><i class="redes fab fa-facebook"></i
+            ></a>
+          </div>
+          <div>
+            <a href="https://web.telegram.org/"
+              ><i class="redes fab fa-telegram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
